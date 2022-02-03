@@ -1,0 +1,33 @@
+/* <!-- Font Awesome --> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Common Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.title {
+    font-size: 34px;
+    margin-bottom: 25px;
+    line-height: 42px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 800;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #a58897;
+}
+
+/* ========== Header Section ========== */
+
