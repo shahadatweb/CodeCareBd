@@ -5,29 +5,94 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.title {
-    font-size: 34px;
-    margin-bottom: 25px;
-    line-height: 42px;
-    text-transform: capitalize;
-    position: relative;
-    font-weight: 800;
+html{
+    scroll-behavior: smooth;
 }
-ul li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-p{
-    font-size: 15px;
-    line-height: 24px;
-    color: #a58897;
+/* .header-top{
+    margin-top: 4rem;
+} */
+
+@keyframes Header-top {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 10px 0;
 }
 
+
+.gradient{
+    background: linear-gradient( 135deg, rgb(0, 97, 242) 0%, rgb(105, 0, 199) 100% );
+}
+.custom-shape-divider-bottom-1630232125 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1630232125 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-bottom-1630232125 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1630234724 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1630234724 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1630234724 .shape-fill {
+    fill: #FFFFFF;
+}
+h1,h2, p, ul,li{
+    color: white;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li{
+
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+.icons{
+    height: 5rem;
+    width: 5rem;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+.gallery{
+    background-color: whitesmoke;
+}
 /* ========== Header Section ========== */
 
